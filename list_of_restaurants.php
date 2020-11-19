@@ -19,12 +19,8 @@
 <th>Menara Standard Chartered, TPM</th>
 <th>03-22441234</th>
 </tr>
-</table>
-</center>
-</body>
-</html>
-
-<?php
+  
+  <?php
 $serverName = "simplewebtp049954.database.windows.net";
 $connectionOptions = array( "Database" => "simpleweb", "Uid" => "simpleweb", "PWD" => "Simple@web");
 //Establishes the connection
@@ -47,3 +43,10 @@ echo "<td>". $row['restaurant_address'] . "</td>"; echo "<td>". $row['restaurant
 }
 sqlsrv_free_stmt($getResults);
 ?>
+  
+</table>
+</center>
+</body>
+</html>
+
+
